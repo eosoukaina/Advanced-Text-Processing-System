@@ -33,9 +33,9 @@ Advanced Text Processing System is a comprehensive NLP project that provides pow
    ```bash
    pip install numpy gradio
    ```
-3. Prepare your data files:
-   - A text corpus file (large text collection for training)
-   - A keyboard graph file (describing keyboard layout adjacencies)
+3. Data files:
+   - A sample text corpus (`big_data.txt`) is provided in the repository for testing and demonstration purposes.
+   - A keyboard graph file (`qwerty_graph.txt`) describing keyboard layout adjacencies is also included.
 4. Run the application:
    ```python
    from text_processor import TextProcessor, TextProcessorApp
@@ -66,6 +66,13 @@ Advanced Text Processing System is a comprehensive NLP project that provides pow
   3. Correction + Auto-completion
   4. Text Generation
 
+## 📸 Demo Screenshots
+Screenshots of the application in action are available in the `screenshots` directory:
+- `correction_demo.png`: Demonstrating the spelling correction feature
+- `autocomplete_demo.png`: Showing the auto-completion functionality
+- `generation_demo.png`: Displaying the text generation capabilities
+- `combined_demo.png`: Showcasing the combined correction and auto-completion interface
+
 ## 📊 Keyboard Graph Format
 The keyboard graph file represents adjacent keys on a keyboard layout:
 ```
@@ -77,12 +84,12 @@ c x d f
 Each line starts with a key followed by its adjacent keys on the keyboard.
 
 ---
-**Note:** This project demonstrates advanced NLP techniques and can be adapted for various text processing applications.
+**Note:** The quality and accuracy of the text processing results depend significantly on the size and quality of the corpus used for training. A larger and more diverse corpus typically leads to better language modeling, more accurate spelling corrections, and more natural text generation. While the sample corpus included in this repository is sufficient for demonstration, using a larger corpus for production applications is recommended.
 ---
 
 ## 👥 Contributors
-- El Hadifi Soukaina
 - El Guelta Mohamad Saber
+- El Hadifi Soukaina
 
 ## 📧 Contact
 For questions or suggestions, feel free to reach out: <br>
