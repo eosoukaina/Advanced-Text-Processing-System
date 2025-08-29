@@ -84,7 +84,7 @@ c x d f
 Each line starts with a key followed by its adjacent keys on the keyboard.
 
 ---
-**Note:** The quality and accuracy of the text processing results depend significantly on the size and quality of the corpus used for training. A larger and more diverse corpus typically leads to better language modeling, more accurate spelling corrections, and more natural text generation. While the sample corpus included in this repository is sufficient for demonstration, using a larger corpus for production applications is recommended.
+**Note:**     The quality and accuracy of the text processing results depend significantly on the size and quality of the corpus used for training. A larger and more diverse corpus typically leads to better language modeling, more accurate spelling corrections, and more natural text generation. While the sample corpus included in this repository is sufficient for demonstration, using a larger corpus for production applications is recommended.
 ---
 
 ## 👥 Contributors
