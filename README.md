@@ -11,14 +11,6 @@ Accessible through a clean Gradio web interface, this system demonstrates how pr
 
 ## 🎯 Key Objectives
 
-Language Modeling: Train n-gram models with add-k smoothing on text corpora for probabilistic word prediction.
-
-Text Correction: Combine edit distance, phonetic matching (Soundex), and keyboard-aware correction for robust spell checking.
-
-Generation & Completion: Provide auto-completion suggestions and generate text sequences using statistical sampling from the n-gram distribution.
-
-Interactive Interface: Deliver all functionalities in real time via an intuitive Gradio UI.
-
 1. **🔍 Language Modeling:**
    - Train n-gram models with add-k smoothing on text corpora for probabilistic word prediction.
 2. **🛠️ Text Correction:**
