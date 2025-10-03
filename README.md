@@ -62,19 +62,6 @@ Interactive Interface: Deliver all functionalities in real time via an intuitive
 
 ## 💻 Features
 
-- **N-gram Language Modeling**: Builds probabilistic models of language based on word frequencies in a corpus.
-- **Spelling Correction**: Combines multiple methods:
-  - Edit distance-based correction
-  - Phonetic matching with Soundex algorithm
-  - Keyboard layout-aware correction
-- **Auto-completion**: Suggests the most probable next word(s) using the trained n-gram model and context from the last tokens.
-- **Text Generation**: Produces text sequences by iteratively sampling next words from the n-gram probability distribution (with add-k smoothing).
-- **Web Interface**: Four functional tabs for different text processing tasks:
-  1. Text Correction
-  2. Auto-completion
-  3. Correction + Auto-completion
-  4. Text Generation
-
 - **Spelling Correction** : Edit distance-based correction + phonetic matching with Soundex algorithm + keyboard adjacency.
 - **Auto-completion** : Predicts next word(s) from n-gram context.
 - **Text Generation**: Iterative probabilistic word sampling (add-k smoothing).
