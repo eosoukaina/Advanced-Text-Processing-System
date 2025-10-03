@@ -67,17 +67,17 @@ Advanced Text Processing System is a comprehensive NLP project that provides pow
   4. Text Generation
 
 ## 📸 Demo Screenshots
-### 📝 Spelling Correction
--<img width="1256" height="604" alt="Image" src="https://github.com/user-attachments/assets/dde1d7ef-fd40-426d-a32e-01d32a8fc299" />
+#### 📝 Spelling Correction
+<img width="1256" height="604" alt="Image" src="https://github.com/user-attachments/assets/9b416b3b-16b6-45e5-ba1f-32d676e59954" />
 
-### 🔮 Auto-completion
+#### 🔮 Auto-completion
 <img width="1288" height="638" alt="Image" src="https://github.com/user-attachments/assets/ba69a842-4b51-4fe1-9956-8731c3940195" />
 
-### ✨ Text Generation
-<img width="1256" height="624" alt="Image" src="https://github.com/user-attachments/assets/81c098b0-a2e7-4399-956d-9a168cd2c2f4" />
+#### ✨ Text Generation
+<img width="1256" height="624" alt="Image" src="https://github.com/user-attachments/assets/b5982574-de8f-45ec-b845-2baa973f5159" />
 
-### ⚡ Combined Correction + Auto-completion
-<img width="1253" height="656" alt="Image" src="https://github.com/user-attachments/assets/b4d93c18-8bb0-4957-94e9-00b2099df972" />
+#### ⚡ Combined Correction + Auto-completion
+<img width="1253" height="656" alt="Image" src="https://github.com/user-attachments/assets/33570f1c-4bbf-406e-975c-6fb130751783" />
 
 ## 📊 Keyboard Graph Format
 The keyboard graph file represents adjacent keys on a keyboard layout:
