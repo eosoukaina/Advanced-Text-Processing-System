@@ -1,31 +1,39 @@
 # 🔤 Advanced Text Processing System 🤖
 
 ## 📜 Project Overview
-Advanced Text Processing System is a comprehensive NLP project that provides powerful text processing capabilities. The system implements n-gram language modeling to power various natural language processing tasks including spelling correction, text auto-completion, and text generation, all accessible through an intuitive web interface built with Gradio.
+A Natural Language Processing (NLP) project implementing n-gram language models for:
+
+- Spelling correction
+- Text auto-completion
+- Text generation
+
+Accessible through a clean Gradio web interface, this system demonstrates how probabilistic language modeling can power advanced text processing applications.
 
 ## 🎯 Key Objectives
+
+Language Modeling: Train n-gram models with add-k smoothing on text corpora for probabilistic word prediction.
+
+Text Correction: Combine edit distance, phonetic matching (Soundex), and keyboard-aware correction for robust spell checking.
+
+Generation & Completion: Provide auto-completion suggestions and generate text sequences using statistical sampling from the n-gram distribution.
+
+Interactive Interface: Deliver all functionalities in real time via an intuitive Gradio UI.
+
 1. **🔍 Language Modeling:**
-   - Implement n-gram language models with add-k smoothing for probabilistic text prediction.
-   - Train models on large text corpora to learn word patterns and relationships.
-
-2. **🛠️ Text Processing & Correction:**
-   - Develop multiple spelling correction algorithms including edit distance, phonetic matching, and keyboard-aware correction.
-   - Process and clean text data for NLP applications.
-
+   - Train n-gram models with add-k smoothing on text corpora for probabilistic word prediction.
+2. **🛠️ Text Correction:**
+   - Combine edit distance, phonetic matching (Soundex), and keyboard-aware correction for robust spell checking.
 3. **✍️ Text Generation & Completion:**
-   - Generate coherent text continuations based on trained language models.
-   - Provide intelligent auto-completion suggestions for partial text input.
-
+   - Provide auto-completion suggestions and generate text sequences using statistical sampling from the n-gram distribution.
 4. **🖥️ Interactive Web Interface:**
-   - Create a user-friendly interface with Gradio to make NLP capabilities accessible.
-   - Enable real-time text correction and completion through an intuitive UI.
+   - Deliver all functionalities in real time via an intuitive Gradio UI.
 
 ## ⚙️ Tech Stack
-- **Python**: Core programming language for the entire system.
-- **NumPy**: For efficient numerical computations and array operations.
-- **Gradio**: For building the interactive web interface.
-- **Multiprocessing**: For parallel processing during model training.
-- **Regular Expressions**: For text preprocessing and cleaning.
+- **Python** (core implementation)
+- **NumPy** (efficient computations)
+- **Gradio** (web interface)
+- **Multiprocessing** (parallel model training)
+- **Regex** (text preprocessing)
 
 ## 🚀 Getting Started
 1. Clone this repository to your local machine.
@@ -52,19 +60,26 @@ Advanced Text Processing System is a comprehensive NLP project that provides pow
    app.launch()
    ```
 
-## 💻 Features in Detail
-- **N-gram Language Modeling**: Creates probabilistic models of language
-- **Spelling Correction**: Uses multiple methods:
+## 💻 Features
+
+- **N-gram Language Modeling**: Builds probabilistic models of language based on word frequencies in a corpus.
+- **Spelling Correction**: Combines multiple methods:
   - Edit distance-based correction
   - Phonetic matching with Soundex algorithm
   - Keyboard layout-aware correction
-- **Text Generation**: Produces contextually relevant text continuations
-- **Auto-completion**: Predicts likely next words in a sentence
+- **Auto-completion**: Suggests the most probable next word(s) using the trained n-gram model and context from the last tokens.
+- **Text Generation**: Produces text sequences by iteratively sampling next words from the n-gram probability distribution (with add-k smoothing).
 - **Web Interface**: Four functional tabs for different text processing tasks:
   1. Text Correction
   2. Auto-completion
   3. Correction + Auto-completion
   4. Text Generation
+
+- **Spelling Correction** : Edit distance-based correction + phonetic matching with Soundex algorithm + keyboard adjacency.
+- **Auto-completion** : Predicts next word(s) from n-gram context.
+- **Text Generation**: Iterative probabilistic word sampling (add-k smoothing).
+- **Web App**: Four tabs → Correction, Completion, Combined, Generation.
+
 
 ## 📸 Demo Screenshots
 #### 📝 Spelling Correction
