@@ -1,23 +1,3 @@
----
-title: Smart Text Assistant
-emoji: ✨
-colorFrom: purple
-colorTo: blue
-sdk: gradio
-sdk_version: 4.19.2
-app_file: app.py
-pinned: false
-license: mit
-tags:
-  - nlp
-  - text-generation
-  - bert
-  - gpt2
-  - text-correction
-  - auto-completion
-  - writing-assistant
----
-
 # ✨ Smart Text Assistant
 
 > **Production-ready NLP application combining deep learning transformers (BERT, GPT-2) with statistical models for intelligent text processing and generation.**
@@ -119,6 +99,16 @@ Advanced-Text-Processing-System/
 └── README.md                       # Documentation
 ```
 
+## 🔧 Tech Stack
+
+Python · PyTorch · Transformers · BERT · DistilGPT2 · Gradio
+
+---
+
+## Live Demo
+
+https://huggingface.co/spaces/eosoukaina/SMART-TEXT-ASSISTANT
+
 ## 🎯 Data Engineering Highlights
 
 ✅ **Pipeline Design**: Modular architecture with clear separation (data/models/interface)  
@@ -145,28 +135,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
+**Note:** First run may take 2-3 minutes to load AI models. Subsequent runs are much faster!
+
+---
 <div align="center">
 
 **⭐ If you find this project useful, please consider giving it a star! ⭐**
 
-*Built with ❤️ for the NLP and Data Engineering community*
-
-</div>
-- Click words to build: `The` → `future` → `is` → `bright` → ...
-
-## 👥 Authors
-
-**El Guelta Mohamad Saber** · **El Hadifi Soukaina**
-
-## 📧 Contact
-
-- elhadifi.soukaina@gmail.com
-- medsaberelguelta@gmail.com
-
-## 🔧 Tech Stack
-
-Python · PyTorch · Transformers · BERT · DistilGPT2 · Gradio
-
----
-
-**Note:** First run may take 2-3 minutes to load AI models. Subsequent runs are much faster!
+*Built with passion for the NLP and Data Engineering community*
