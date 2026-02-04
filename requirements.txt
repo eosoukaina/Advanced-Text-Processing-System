@@ -1,9 +1,10 @@
 # Core dependencies
 numpy>=1.26.0,<2.0.0
-gradio>=4.19.2
+gradio>=4.40.0
 transformers>=4.38.0
 torch>=2.5.0
 sentencepiece>=0.1.99
+huggingface-hub>=0.23.0
 
 # Text processing
 regex>=2023.12.25
@@ -12,7 +13,3 @@ nltk>=3.8.1
 # Performance and utilities
 accelerate>=0.27.0
 safetensors>=0.4.2
-
-# Optional - for production deployment
-uvicorn==0.27.1
-python-multipart==0.0.9
